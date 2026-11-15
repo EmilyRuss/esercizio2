@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.35;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  padding: 16px;
+  background-color: #2240AF;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nome-sito,
+.menu {
+  color: #fff;
+  font-size: 16px;
+}
+
+.apertura {
+  margin-bottom: 80px;
+}
+
+.contenitore-slide1 {
+  background-image: url(img/64b437d9-ada5-4c75-a5c7-8195b3038020_2816x1536.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  overflow: hidden;
+
+}
+
+h1 {
+  color: #fff;
+  font-size: 128px;
+  line-height: 90%;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 80%;
+  padding: 150px 16px 20px 16px;
+  border-bottom: 14px solid #2240AF;
+}
+
+.contenitore,.header-content,
+.contenitore-intro {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contenitore-intro {
+  font-size: 32px;
+  line-height: 1,5;
+  margin-bottom: 40px;
+}
+
+.testo {
+  flex: 1;
+}
+
+h2 {
+  color: #2240AF;
+  font-size: 64px;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 14px solid #2240AF;
+}
+
+.parola-evidenziata {
+  color: #2240AF;
+}
+
+.testo p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+
+img {
+  width: 100%;
+  max-width: 448px;
+  height: auto;
+  object-fit: cover;
+}
+
+.contenitore-footer {
+  padding: 16px;
+  background-color: #2240AF;
+  width: 100%;
+}
+
+.footer-testo {
+  color: white;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 40px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-corso {
+  color: white;
+  font-size: 16px;
+
+}
+
+@media (max-width: 600px) {
+  .contenitore,
+  .contenitore-intro,
+  .footer-testo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .testo {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 48px;
+    width: 100%;
+    padding-top: 80px;
+    border-bottom: 7px solid #2240AF;
+  }
+
+  .nome-sito, .menu {
+    font-size: 12px;
+  }
+
+  .contenitore-slide1{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
+
+  .contenitore-intro {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 1.1;
+    padding-bottom: 10px;
+    border-bottom: 7px solid #2240AF;
+    margin-bottom: 20px;
+  }
+
+  .testo p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .footer-corso {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .footer-conclusione {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
